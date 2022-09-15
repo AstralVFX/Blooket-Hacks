@@ -1,0 +1,27 @@
+'use strict';
+void
+
+function(a) {
+  var c = function() {
+    (async function() {
+      function a() {
+        return Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner
+      }
+      var c = document.createElement("iframe");
+      if (document.body.append(c), window.alert = c.contentWindow.alert.bind(window), window.prompt = c.contentWindow.prompt.bind(window), window.confirm = c.contentWindow.confirm.bind(window), c.remove(), "/play/hack" != window.location.pathname) alert("Join A Live Crypto Hack Game To Use This Hack");
+      else {
+        var d = +parseFloat(prompt("Crypto"));
+        a().stateNode.setState({
+          crypto2: d,
+          crypto: d
+        }), alert("Crypto added:" + b + "\n\nMade By c4Y$3n")
+      }
+    })()
+  };
+  if (a && a.fn && 1.7 <= parseFloat(a.fn.jquery)) return void load(a);
+  var d = document.createElement("script");
+  d.src = "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js", d.onload = d.onreadystatechange = function() {
+    var a = this.readyState;
+    a && "loaded" !== a && "complete" !== a || c(jQuery.noConflict())
+  }, document.getElementsByTagName("head")[0].appendChild(d)
+}(window.jQuery);
