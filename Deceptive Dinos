@@ -1,0 +1,8 @@
+let a = document.createElement("iframe");
+document.body.append(a), window.alert = a.contentWindow.alert.bind(window), window.prompt = a.contentWindow.prompt.bind(window), window.confirm = a.contentWindow.confirm.bind(window), a.remove();
+let b = +parseFloat(prompt("Add Fossils"));
+(function() {
+  return Object.values(document.querySelector("#app > div > div"))[1].children[1]._owner
+})().stateNode.setState({
+ fossils: b
+})
